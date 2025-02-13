@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
     <title>Conversor de Moedas</title>
 </head>
 
@@ -33,24 +34,24 @@
 
         <label>
             valor
-            <input placeholder="R$ 10.000,00">
+            <input class="input-currency"  placeholder="R$ 10.000,00">
         </label>
-        <button>Converter</button>
+        <button class="convert">Converter</button>
         <section>
             <div class="box-nota">
                 <img src="./assets/Real.png" alt="logo-moeda-real">
-                <p class="moeda">Real</p>
-                <p>R$ 0,00</p>
+                <p>Real</p>
+                <p class="moeda-real">R$ 0,00</p>
             </div>
             <img src="./assets/Seta.png" alt="seta-apontando-para-baixo" class="img-seta">
             <div class="box-nota">
                 <img src="./assets/Dolar.png" alt="logo-moeda-dolar">
-                <p class="moeda">Dólar Americano</p>
-                <p>R$ 0,00</p>
+                <p>Dólar Americano</p>
+                <p class="moeda-dolar" >US$ 0,00</p>
             </div>
         </section>
 
     </main>
 </body>
-
+<script src="./scripts.js"></script>
 </html>
