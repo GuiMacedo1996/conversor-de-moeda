@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.logo-principal {
+    width: 500px;
+    display: block;
+    margin: 20px auto;
+
+}
+
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+main {
+    width: 375px;
+    background-color: rgb(173, 231, 231);
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #070707;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+select {
+    background: #ffffff;
+    border: 1px solid #bbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #070707;
+    cursor: pointer;
+}
+
+input {
+    background: #ffff;
+    border: 1px solid #bbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: rgb(7, 7, 7);
+}
+
+button {
+    height: 48px;
+    width: 100%;
+    border-radius: 5px;
+    background: #772FD3;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+
+}
+section{
+    border: 1px solid #772FD3 ;
+    border-radius: 20px;
+    margin-top:  36px;
+    pedding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-seta{
+    margin: 15px 0;
+}
+.box-nota{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 14px;
+}
+
+.moeda{
+font-weight: 400;
+font-size: 14px;
+color:  #777777;
+}
